@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex h-screen w-full items-center justify-center bg-black"
+    >
+      <img
+        class="pointer-events-none absolute inset-0 h-screen w-full object-cover object-center opacity-30"
+        src="https://wallpaperaccess.com/full/3627417.jpg"
+        alt=""
+      />
+      <div
+        class="relative space-y-3 rounded-lg bg-black p-4 text-white duration-200 ease-in-out hover:scale-105"
+      >
+        <img
+          class="aspect-[4/5] w-60 rounded-lg object-cover object-center"
+          src="https://wallpaperaccess.com/full/3627417.jpg"
+          alt=""
+        />
+        <div>
+          <div class="space-x-1">
+            <a
+              class="rounded border p-1 text-[0.55rem] font-semibold uppercase tracking-wide"
+              href=""
+              >adventure</a
+            >
+            <a
+              class="rounded border p-1 text-[0.55rem] font-semibold uppercase tracking-wide"
+              href=""
+              >mystery</a
+            >
+            <a
+              class="rounded border p-1 text-[0.55rem] font-semibold uppercase tracking-wide"
+              href=""
+              >drama</a
+            >
+          </div>
+          <div class="flex items-center justify-between pt-3">
+            <p class="text-xl font-semibold capitalize">Stranger things</p>
+            <div class="flex items-center gap-1">
+              <img
+                class="h-4"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Yellow_Star_with_rounded_edges.svg/1200px-Yellow_Star_with_rounded_edges.svg.png"
+                alt=""
+              />
+              <p class="text-lg font-medium text-yellow-400">9.0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
